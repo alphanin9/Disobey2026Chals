@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  srv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      FLAG: "DISOBEY[tr1v1@11y_3xc3pt10n3l_c0d3]"

@@ -1,0 +1,8 @@
+.cache
+.xmake
+build/
+vsxmake*/
+compile_commands.json
+
+# No piracy of Windows on GitHub!
+challenge_template/public/files/ntoskrnl.exe

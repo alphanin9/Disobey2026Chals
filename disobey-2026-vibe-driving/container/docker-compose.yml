@@ -1,0 +1,6 @@
+services:
+    cant-touch-this:
+        build: .
+        ports:
+            - 6666:1337
+        restart: on-failure

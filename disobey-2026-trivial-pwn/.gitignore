@@ -1,0 +1,5 @@
+.venv
+.gdb_history
+chain.bin
+ez.i64
+libc.so.6.local

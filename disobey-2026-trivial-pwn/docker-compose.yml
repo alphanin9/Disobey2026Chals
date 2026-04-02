@@ -1,0 +1,6 @@
+services:
+    blindness:
+        build: .
+        ports:
+            - 4008:1337
+        restart: on-failure

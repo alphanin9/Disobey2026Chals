@@ -1,0 +1,21 @@
+# Xmake cache
+.xmake/
+build/
+
+# MacOS Cache
+.DS_Store
+
+# Kmodule cruft
+.module-common.o
+..module-common.o.cmd
+.Module.symvers.cmd
+.modules.order.cmd
+Module.symvers
+modules.order
+compile_commands.json
+.cache
+*.ko
+*.mod
+*.o
+*.cmd
+*.mod.c
